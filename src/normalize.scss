@@ -1,0 +1,15 @@
+
+body {
+  margin: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh - 6vh;
+}
