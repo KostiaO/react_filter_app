@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d7074c2.css",
-    "main.js": "/static/js/main.ac13115a.js",
-    "index.html": "/index.html",
-    "static/media/star-active.svg": "/static/media/star-active.ebf9e600566ab9031381.svg",
-    "static/media/star.svg": "/static/media/star.d9b36df467f28a623a30.svg",
-    "main.8d7074c2.css.map": "/static/css/main.8d7074c2.css.map",
-    "main.ac13115a.js.map": "/static/js/main.ac13115a.js.map"
+    "main.css": "/react_filter_app/static/css/main.ea94d7d5.css",
+    "main.js": "/react_filter_app/static/js/main.e6629732.js",
+    "index.html": "/react_filter_app/index.html",
+    "static/media/star-active.svg": "/react_filter_app/static/media/star-active.ebf9e600566ab9031381.svg",
+    "static/media/star.svg": "/react_filter_app/static/media/star.d9b36df467f28a623a30.svg",
+    "main.ea94d7d5.css.map": "/react_filter_app/static/css/main.ea94d7d5.css.map",
+    "main.e6629732.js.map": "/react_filter_app/static/js/main.e6629732.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d7074c2.css",
-    "static/js/main.ac13115a.js"
+    "static/css/main.ea94d7d5.css",
+    "static/js/main.e6629732.js"
   ]
 }
