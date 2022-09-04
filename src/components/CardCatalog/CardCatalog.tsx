@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useCallback, useEffect, useMemo } from 'react';
 import './CardCatalog.scss';
 
 import { Card } from '../Card/Card';
@@ -14,7 +14,7 @@ export const CardCatalog: React.FC = () => {
 
   const isRatefull = useSelector(getIsRatefulSelector);
 
-  const otherFilters = (goodsToFilt: Good[]) => {
+  const otherFilters = useCallback((goodsToFilt: Good[]) => {
     let resultArr = [ ...goodsToFilt ];
 
 
@@ -33,7 +33,7 @@ export const CardCatalog: React.FC = () => {
     }
 
     return resultArr;
-  }
+  }, [isPriceless, isRatefull]);
 
   const dispatch = useDispatch<AppDispatch>();
 
